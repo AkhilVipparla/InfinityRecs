@@ -19,6 +19,7 @@ import HomeAutomationPage from "./Pages/HomeAutomationPage";
 import JobsPage from "./Pages/JobsPage";
 import HobbiesPage from "./Pages/HobbiesPage";
 import SportsPage from "./Pages/SportsPage";
+// hii
 
 const App = () => {
   return (
