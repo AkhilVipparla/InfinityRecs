@@ -23,7 +23,7 @@ const NavLinks = [
 const Navbar = () => {
   return (
     <>
-      <div className='bg-white shadow-md fixed top-0 left-0 w-full z-50'>
+      <div className='bg-white shadow-md fixed top-0 left-0 w-full z-50 dark:bg-gray-800'>
         <div className='container flex justify-between py-4 sm:py-3 px-6'>
           {/* Logo */}
           <div className='font-bold text-blue-600 text-2xl'>
@@ -35,7 +35,7 @@ const Navbar = () => {
             <ul className="flex items-center gap-10">
               {NavLinks.map(({ id, name, link }) => (
                 <li key={id}>
-                  <a href={link} className="hover:text-blue-500">{name}</a>
+                  <a href={link} className="hover:text-blue-500 dark:text-white">{name}</a>
                 </li>
               ))}
             </ul>
@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* To prevent content from being hidden behind the fixed navbar */}
+      
       <div className="h-16"></div>
     </>
   );

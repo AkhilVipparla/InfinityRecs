@@ -12,7 +12,7 @@ const Dash = () => {
     
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/music" element={<MusicPage />} />
+        
         
       </Routes>
       <CategoryGrid/>
